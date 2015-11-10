@@ -2,7 +2,7 @@
 body {
   background: grey;
   margin: 0px;
-  min-height: 5000px;
+  min-height: 1750px;
 }
 
 .icon {
@@ -185,5 +185,16 @@ li {
   position: relative;
   max-width: 600px;
   top: 30px;
+}
+
+.our-clients {
+  position: relative;
+  top: 650px;
+  text-align: center;
+}
+
+.logo-holder {
+  height: 100px;
+  overflow: hidden;
 }
 
