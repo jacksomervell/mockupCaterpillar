@@ -50,6 +50,46 @@ body {
   text-align: justify;
 }
 
+#myCarousel {
+  width: 1080px;
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 400px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.carousel-caption {
+  position: relative;
+  left: 100px;
+  bottom: 700px;
+  display: inline-block;
+  background-color: rgba(47,79,79, 0.8);
+}
+
+.carousel-caption p {
+  margin: 10px;
+}
+
+.red {
+  position: absolute;
+  background-color: red;
+  width: 100px;
+  height: 20px;
+  bottom: 650px;
+  left: 184px;
+  text-align: none;
+}
+
+.red h2 {
+  font-size: 15px;
+  margin: 0;
+  height: 20px;
+  position: relative;
+  bottom: 5px;
+
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -65,3 +105,5 @@ li {
   text-align: center;
   padding-top: 10px;
 }
+
+
