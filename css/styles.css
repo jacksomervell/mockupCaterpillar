@@ -1,0 +1,25 @@
+.icon {
+  width: 40px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo-container {
+  display: inline-block;
+
+}
+
+.icon-container {
+  display: inline-block;
+  float: right;
+}
+
+.container {
+
+}
+
+.contact-container {
+  text-align: right;
+}

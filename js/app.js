@@ -1,5 +1,5 @@
 angular
-  .module("mockupApp", [ 'ui.router'])
+  .module("mockupApp", [ 'ui.router', 'ngMaterial'])
   .config(MainRouter)
 
 function MainRouter($stateProvider, $urlRouterProvider) {
