@@ -2,6 +2,7 @@
 body {
   background: grey;
   margin: 0px;
+  min-height: 100%;
 }
 
 .icon {
@@ -31,7 +32,7 @@ body {
   top: 20px;
   margin-left: 60px;
   margin-right: 60px;
-  height: 1000px;
+  height: 100%;
 }
 
 .contact-container {
@@ -106,4 +107,54 @@ li {
   padding-top: 10px;
 }
 
+.welcome-text {
+  position: relative;
+  top: 450px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.first-hr {
+  position: relative;
+  top: 480px;
+  width: 1080px;
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.images-holder {
+  position: relative;
+  top: 500px;
+  text-align: center;
+
+}
+
+.service-titles {
+  position: relative;
+  top: 530px;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.service-title {
+  font-size: 30px;
+  margin-right: 90px;
+}
+
+.service-info {
+  position: relative;
+  top: 550px;
+  left: 70px;
+}
+
+.service-info p {
+  display: inline-block;
+  width: 200px;
+  margin-right: 60px;
+}
 
